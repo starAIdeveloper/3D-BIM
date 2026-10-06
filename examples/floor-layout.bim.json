@@ -1,0 +1,1141 @@
+{
+  "schema_version": 1,
+  "name": "Ground-floor layout",
+  "units": "metres",
+  "elements": [
+    {
+      "id": "E-0001",
+      "name": "Site plinth",
+      "category": "Site",
+      "floor": 0,
+      "size": [
+        20,
+        18,
+        0.18
+      ],
+      "position": [
+        0,
+        0,
+        -0.25
+      ],
+      "color": "#c6c8bf",
+      "material": "Paving",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0002",
+      "name": "Level 0 slab",
+      "category": "Slabs",
+      "floor": 0,
+      "size": [
+        12,
+        10,
+        0.22
+      ],
+      "position": [
+        0,
+        0,
+        0.0
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0003",
+      "name": "L0 south/north sill -1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        12,
+        0.22,
+        0.65
+      ],
+      "position": [
+        0,
+        -5,
+        0.42
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0004",
+      "name": "L0 south/north lintel -1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        12,
+        0.22,
+        0.4
+      ],
+      "position": [
+        0,
+        -5,
+        2.85
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0005",
+      "name": "L0 facade pier -5.9/-1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        -5.9,
+        -5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0006",
+      "name": "L0 facade pier -2.0/-1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        -2.0,
+        -5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0007",
+      "name": "L0 facade pier 2.0/-1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        2.0,
+        -5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0008",
+      "name": "L0 facade pier 5.9/-1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        5.9,
+        -5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0009",
+      "name": "L0 glazing -3.9/-1",
+      "category": "Windows",
+      "floor": 0,
+      "size": [
+        3.45,
+        0.07,
+        1.9
+      ],
+      "position": [
+        -3.9,
+        -5,
+        1.65
+      ],
+      "color": "#89a5af",
+      "material": "Glazing",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0010",
+      "name": "L0 window frame -5.6/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -5.6,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0011",
+      "name": "L0 window frame -3.9/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -3.9,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0012",
+      "name": "L0 window frame -2.2/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -2.2,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0013",
+      "name": "L0 glazing 0/-1",
+      "category": "Windows",
+      "floor": 0,
+      "size": [
+        3.45,
+        0.07,
+        1.9
+      ],
+      "position": [
+        0,
+        -5,
+        1.65
+      ],
+      "color": "#89a5af",
+      "material": "Glazing",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0014",
+      "name": "L0 window frame -1.7/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -1.7,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0015",
+      "name": "L0 window frame 0/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        0,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0016",
+      "name": "L0 window frame 1.7/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        1.7,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0017",
+      "name": "L0 glazing 3.9/-1",
+      "category": "Windows",
+      "floor": 0,
+      "size": [
+        3.45,
+        0.07,
+        1.9
+      ],
+      "position": [
+        3.9,
+        -5,
+        1.65
+      ],
+      "color": "#89a5af",
+      "material": "Glazing",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0018",
+      "name": "L0 window frame 2.2/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        2.2,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0019",
+      "name": "L0 window frame 3.9/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        3.9,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0020",
+      "name": "L0 window frame 5.6/-1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        5.6,
+        -4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0021",
+      "name": "L0 south/north sill 1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        12,
+        0.22,
+        0.65
+      ],
+      "position": [
+        0,
+        5,
+        0.42
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0022",
+      "name": "L0 south/north lintel 1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        12,
+        0.22,
+        0.4
+      ],
+      "position": [
+        0,
+        5,
+        2.85
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0023",
+      "name": "L0 facade pier -5.9/1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        -5.9,
+        5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0024",
+      "name": "L0 facade pier -2.0/1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        -2.0,
+        5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0025",
+      "name": "L0 facade pier 2.0/1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        2.0,
+        5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0026",
+      "name": "L0 facade pier 5.9/1",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.26,
+        0.22,
+        2.3
+      ],
+      "position": [
+        5.9,
+        5,
+        1.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0027",
+      "name": "L0 glazing -3.9/1",
+      "category": "Windows",
+      "floor": 0,
+      "size": [
+        3.45,
+        0.07,
+        1.9
+      ],
+      "position": [
+        -3.9,
+        5,
+        1.65
+      ],
+      "color": "#89a5af",
+      "material": "Glazing",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0028",
+      "name": "L0 window frame -5.6/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -5.6,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0029",
+      "name": "L0 window frame -3.9/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -3.9,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0030",
+      "name": "L0 window frame -2.2/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -2.2,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0031",
+      "name": "L0 glazing 0/1",
+      "category": "Windows",
+      "floor": 0,
+      "size": [
+        3.45,
+        0.07,
+        1.9
+      ],
+      "position": [
+        0,
+        5,
+        1.65
+      ],
+      "color": "#89a5af",
+      "material": "Glazing",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0032",
+      "name": "L0 window frame -1.7/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        -1.7,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0033",
+      "name": "L0 window frame 0/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        0,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0034",
+      "name": "L0 window frame 1.7/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        1.7,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0035",
+      "name": "L0 glazing 3.9/1",
+      "category": "Windows",
+      "floor": 0,
+      "size": [
+        3.45,
+        0.07,
+        1.9
+      ],
+      "position": [
+        3.9,
+        5,
+        1.65
+      ],
+      "color": "#89a5af",
+      "material": "Glazing",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0036",
+      "name": "L0 window frame 2.2/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        2.2,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0037",
+      "name": "L0 window frame 3.9/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        3.9,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0038",
+      "name": "L0 window frame 5.6/1",
+      "category": "Frames",
+      "floor": 0,
+      "size": [
+        0.06,
+        0.16,
+        1.95
+      ],
+      "position": [
+        5.6,
+        4.92,
+        1.65
+      ],
+      "color": "#343d45",
+      "material": "Aluminium",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0039",
+      "name": "L0 end wall -6",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.22,
+        10,
+        2.85
+      ],
+      "position": [
+        -6,
+        0,
+        1.55
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0040",
+      "name": "L0 end wall 6",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.22,
+        10,
+        2.85
+      ],
+      "position": [
+        6,
+        0,
+        1.55
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0041",
+      "name": "L0 dividing wall",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        0.17,
+        7,
+        2.6
+      ],
+      "position": [
+        0,
+        1.4,
+        1.4
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0042",
+      "name": "L0 room partition",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        5.7,
+        0.17,
+        2.6
+      ],
+      "position": [
+        -3,
+        1.1,
+        1.4
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0043",
+      "name": "L0 doorway header",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        1.5,
+        0.18,
+        0.35
+      ],
+      "position": [
+        1.8,
+        0,
+        2.7
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0044",
+      "name": "L0 partition wing",
+      "category": "Walls",
+      "floor": 0,
+      "size": [
+        2.6,
+        0.18,
+        2.6
+      ],
+      "position": [
+        4.5,
+        0,
+        1.4
+      ],
+      "color": "#d4d5d1",
+      "material": "Concrete",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0045",
+      "name": "L0 sofa base -3",
+      "category": "Furniture",
+      "floor": 0,
+      "size": [
+        2.4,
+        0.95,
+        0.42
+      ],
+      "position": [
+        -3,
+        2.8,
+        0.38
+      ],
+      "color": "#a9a69b",
+      "material": "Fabric",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0046",
+      "name": "L0 sofa back -3",
+      "category": "Furniture",
+      "floor": 0,
+      "size": [
+        2.4,
+        0.2,
+        0.8
+      ],
+      "position": [
+        -3,
+        3.2,
+        0.65
+      ],
+      "color": "#b9b6ab",
+      "material": "Fabric",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0047",
+      "name": "L0 table -3",
+      "category": "Furniture",
+      "floor": 0,
+      "size": [
+        1.4,
+        0.8,
+        0.13
+      ],
+      "position": [
+        -3,
+        0.5,
+        0.72
+      ],
+      "color": "#957a5b",
+      "material": "Timber",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0048",
+      "name": "L0 sofa base 3",
+      "category": "Furniture",
+      "floor": 0,
+      "size": [
+        2.4,
+        0.95,
+        0.42
+      ],
+      "position": [
+        3,
+        2.8,
+        0.38
+      ],
+      "color": "#a9a69b",
+      "material": "Fabric",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0049",
+      "name": "L0 sofa back 3",
+      "category": "Furniture",
+      "floor": 0,
+      "size": [
+        2.4,
+        0.2,
+        0.8
+      ],
+      "position": [
+        3,
+        3.2,
+        0.65
+      ],
+      "color": "#b9b6ab",
+      "material": "Fabric",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0050",
+      "name": "L0 table 3",
+      "category": "Furniture",
+      "floor": 0,
+      "size": [
+        1.4,
+        0.8,
+        0.13
+      ],
+      "position": [
+        3,
+        0.5,
+        0.72
+      ],
+      "color": "#957a5b",
+      "material": "Timber",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0051",
+      "name": "Entry step 1",
+      "category": "Site",
+      "floor": 0,
+      "size": [
+        5,
+        1.2,
+        0.16
+      ],
+      "position": [
+        0,
+        -6.5,
+        -0.05
+      ],
+      "color": "#bcbfbb",
+      "material": "Stone",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0052",
+      "name": "Entry step 2",
+      "category": "Site",
+      "floor": 0,
+      "size": [
+        5,
+        1.2,
+        0.16
+      ],
+      "position": [
+        0,
+        -7.2,
+        -0.19
+      ],
+      "color": "#bcbfbb",
+      "material": "Stone",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0053",
+      "name": "Entry step 3",
+      "category": "Site",
+      "floor": 0,
+      "size": [
+        5,
+        1.2,
+        0.16
+      ],
+      "position": [
+        0,
+        -7.9,
+        -0.33
+      ],
+      "color": "#bcbfbb",
+      "material": "Stone",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    },
+    {
+      "id": "E-0054",
+      "name": "Entry step 4",
+      "category": "Site",
+      "floor": 0,
+      "size": [
+        5,
+        1.2,
+        0.16
+      ],
+      "position": [
+        0,
+        -8.6,
+        -0.47000000000000003
+      ],
+      "color": "#bcbfbb",
+      "material": "Stone",
+      "kind": "box",
+      "visible": true,
+      "rotation": 0
+    }
+  ]
+}

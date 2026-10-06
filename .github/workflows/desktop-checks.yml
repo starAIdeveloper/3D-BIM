@@ -15,3 +15,20 @@ jobs:
       - run: sudo apt-get update && sudo apt-get install -y libegl1 libopengl0
       - run: python -m pip install -e '.[test]'
       - run: python -m pytest -q
+  windows-desktop:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[test]'
+      - run: python -m pytest -q
+        env:
+          QT_QPA_PLATFORM: offscreen
+      - run: ./scripts/build_windows.ps1
+        shell: pwsh
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 3D-BIM-Windows-desktop
+          path: dist/3D-BIM/
