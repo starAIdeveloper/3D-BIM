@@ -2,6 +2,14 @@
 
 An original native desktop architectural concept editor inspired by the supplied CAD screenshots. Built with Python, PySide6/Qt and NumPy, with an orthographic software-rendered 3D viewport. This is a desktop application, not a browser wrapper. All bundled house geometry is generated in source.
 
+## Actual desktop captures
+
+![Modern villa workspace](docs/screenshots/modern-villa.webp)
+
+![Gabled residence](docs/screenshots/gabled-residence.webp)
+
+![Ground-floor layout](docs/screenshots/floor-layout.webp)
+
 ## Start on Windows
 
 Install 64-bit Python 3.11 or newer, open a terminal in this repository and run:
