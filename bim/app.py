@@ -1,4 +1,5 @@
 """Native Qt document editor and undoable modeling operations."""
+import argparse
 import copy
 import math
 from pathlib import Path
@@ -178,7 +179,11 @@ class MainWindow(QMainWindow):
         id=item.data(0,Qt.UserRole)
         if not id:return
         visible=item.checkState(1)==Qt.Checked
-        self.mutate('Change visibility',lambda d:setattr(next(e for e in d.elements if e.id==id),'visible',visible))
+        # Rebuild only after itemChanged unwinds, so Qt never deletes its active sender.
+        def apply_visibility():
+            if any(e.id==id for e in self.document.elements):
+                self.mutate('Change visibility',lambda d:setattr(next(e for e in d.elements if e.id==id),'visible',visible))
+        QTimer.singleShot(0,apply_visibility)
 
     def filter_tree(self,*args):
         text=self.search.text().casefold()
@@ -297,7 +302,19 @@ class MainWindow(QMainWindow):
         event.accept() if self.confirm_discard() else event.ignore()
 
 def main():
-    app=QApplication(sys.argv);app.setApplicationName('3D-BIM');app.setOrganizationName('Independent Concept Tools')
+    parser=argparse.ArgumentParser(description='Native 3D-BIM architectural concept editor')
+    parser.add_argument('project',nargs='?',help='Open a .bim.json project')
+    parser.add_argument('--scene',type=int,choices=[0,1,2],default=0,help='Bundled sample scene')
+    parser.add_argument('--snapshot',type=Path,help='Capture the desktop window as PNG, then exit')
+    options=parser.parse_args()
+    app=QApplication([sys.argv[0]]);app.setApplicationName('3D-BIM');app.setOrganizationName('Independent Concept Tools')
     window=MainWindow()
-    if len(sys.argv)>1:window.load_path(sys.argv[1])
-    window.show();sys.exit(app.exec())
+    if options.scene:window.scene_picker.setCurrentIndex(options.scene)
+    if options.project and not window.load_path(options.project):return 1
+    window.show()
+    if options.snapshot:
+        def capture():
+            success=window.grab().save(str(options.snapshot),'PNG')
+            app.exit(0 if success else 1)
+        QTimer.singleShot(200,capture)
+    return app.exec()
